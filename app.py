@@ -97,7 +97,7 @@ def main():
     st.write("<div class='chat-container'>", unsafe_allow_html=True)
     
     # Always display the initial assistant message
-    st.write("<div class='chat-bot'>Bot:</div><div class='chat-response'>Hello Viswanath👋, How can I assist you today?</div>", unsafe_allow_html=True)
+    st.write("<div class='chat-bot'>Bot:</div><div class='chat-response'>Hello👋, How can I assist you today?</div>", unsafe_allow_html=True)
 
     user_message = st.text_input("Enter your message:")
     if st.button("Send ➤"):
